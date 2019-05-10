@@ -3,7 +3,7 @@
 // 1. Write an arrow function that takes one argument of type array and returns the contents of that array in reverse order.
 
 var originalArray = [1, 2, 3, 4, 5, 6, 7]
-
+ 
 
 // 2. Given the object below, complete the console.log to find specific information:
 
