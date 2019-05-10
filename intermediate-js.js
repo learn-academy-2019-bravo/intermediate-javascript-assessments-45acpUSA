@@ -23,13 +23,13 @@ var bicycle = {
 }
 
 // Log the type of bicycle:
-console.log()
+console.log(bicycle.type)
 
 // Log the bell:
-console.log()
+console.log(bicycle.gear[2])
 
 // Log the PSI:
-console.log()
+console.log(bicycle.wheels.specs[2])
 
 
 // 3. Write a function called letterCounter that logs the number of times the letter "l" appears in ourString.
