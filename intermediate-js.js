@@ -36,6 +36,13 @@ console.log(bicycle.wheels.specs[2])
 
 var ourString = "Hello Learn Students!"
 
+const letterCounter = str => {
+	return str.split("").filter(letter=>{
+		return /l/i.test(letter)
+	}).length
+}
+
+// console.log(letterCounter(ourString))
 
 // 4. Write a function called getFib that returns the first 10 numbers of the Fibonacci sequence in an array. [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 
