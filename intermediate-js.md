@@ -35,6 +35,9 @@ I heard one suggestion from a fellow classmate that was, in my opinion, extremel
 ### HTML/CSS Review questions: First, try to answer each question on your own then Google the answer to further your knowledge.
 
 1. How do you link a CSS file to your HTML page?
+You link a CSS file to your HTML page within the <head> of the HTML page. You use the link tag along with the href attribute and set that equal to the string of the CSS file pathway (simply the file name if housed within the same directory).
+
+Linking a JavaScript file is slightly different. Within the body, typically just above the closing body tag, you would use the oepning and closing <script> tags along with the attribute src and set that equal to the string of the JS file pathway (or simply the file name if housed within the same directory). This is typically located at the bottom of the body because everything in the HTML page linked to JS above these tags will be recognized. Anything below these tags (while still within the body) will not be recognized by the JS file.
 
 2. What is the difference between a div and a span?
 
