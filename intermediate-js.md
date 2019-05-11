@@ -9,6 +9,13 @@ While both are higher-order functions (also known as iterator methods), .map() r
 Object destructuring allows for ease of access of the element you choose to destructure. You are now able to call upon the destructured element without having to type "this." every time which not only saves time as the developer, but allows for easier readability for other developers.
 
 3. What is the difference between var, let, and const?
+With regards to the development of JavaScript as a language, var preceded both let and const. While all are used as declarative keywords, they have different uses. In 2015, ES6 brought about let and const which allowed for more versatility of JS.
+
+const is predominantly used when declaring a data type that is not intended to be reassigned. const actually prevents the reassignment of that data type, giving you an error message if attempted. This allows outside developers the ability to identify data types that are intended to be consistent throughout the block or entire file, depending on scope (although const is generally used to declare data types in the global scope). While data types declared with const cannot be reassigned, they remain mutable.
+
+let, on the other hand, is used for data types that are intended to be reassigned allowing for higher functionality and versatility throughout the language. let is primarily used within the block scope because of the availability of reassignment. Data types declared with let are also mutable.
+
+var, prior to ES6, was the only way to declare a data type. As more companies and developers are adopting the new syntax of ES6, var is becoming less common practice, although you may still see it used to declare data types in the global scope. Data types declared with var are mutable as well.
 
 4. Why is testing important?
 
