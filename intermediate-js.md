@@ -24,6 +24,7 @@ Testing is extremely important. Not only does it allow you to check whether your
 A higher order function is a function that either takes in a function (commonly represented as an anonymous function) as an argument, returns a function or both. These specific functions are highly versatile and are great tools for developers.
 
 6. What is the difference between a class and an object?
+A class is a blueprint (or factory) for objects. Objects themselves have two key characteristics: attributes and behaviors. These are slightly different from hashes in Ruby, which only have attributes.
 
 7. What did you learn during the group project this week? Please include any additional feedback you may have.
 
