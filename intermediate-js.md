@@ -3,6 +3,7 @@
 ### Without using Google answer the following:
 
 1. What is the difference between .map() and .filter()?
+While both are higher-order functions (also known as iterator methods), .map() returns a new array with all the same elements after running through the intended logic within the block, while .filter() returns a new array with ONLY elements that pass a requirement set by the logic within the block.
 
 2. Why would you use object destructuring?
 
