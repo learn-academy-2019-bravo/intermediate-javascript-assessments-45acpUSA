@@ -21,6 +21,7 @@ var, prior to ES6, was the only way to declare a data type. As more companies an
 Testing is extremely important. Not only does it allow you to check whether your code fulfills its intended function, it can also check whether your code is dynamic enough to handle various cases. Almost every tech-based business requires testing as part of their common practice because it shows shareholders, clients and other non-developer personnel that the code is doing what it was intended for.
 
 5. What is a higher order function?
+A higher order function is a function that either takes in a function (commonly represented as an anonymous function) as an argument, returns a function or both. These specific functions are highly versatile and are great tools for developers.
 
 6. What is the difference between a class and an object?
 
