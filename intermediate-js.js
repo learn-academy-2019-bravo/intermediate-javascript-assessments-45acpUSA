@@ -63,3 +63,30 @@ const getFib = () => {
 //5. Write a function called oddChecker that takes in the fullArr and uses a for loop to return a new array of only odd numbers. Copy and paste your code and refactor using ES6 syntax.
 
 var fullArr = [4, 9, 0, "7", 8, true, "hey", 7, 199, -9, false, "hola"]
+
+const oddChecker = arr => {
+	let newArr =[]
+	let finalArr = []
+	for (let i=0; i<arr.length; i++) {
+		newArr.push(parseInt(arr[i]))
+	}
+	for (let i=0; i<newArr.length; i++) {
+		if (/\d/.test(newArr[i]) && newArr[i] % 2 !== 0) {
+			finalArr.push(newArr[i])
+		}
+	}
+	return finalArr
+}
+
+const oddChecker = arr => {
+	let trueNum = arr.map(val=>{
+		return parseInt(val)
+	})
+	return trueNum.filter(val=>{
+		if (val % 2 !== 0) {
+			return val
+		}
+	})
+}
+
+// console.log(oddChecker(fullArr))
