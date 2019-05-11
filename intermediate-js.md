@@ -6,6 +6,7 @@
 While both are higher-order functions (also known as iterator methods), .map() returns a new array with all the same elements after running through the intended logic within the block, while .filter() returns a new array with ONLY elements that pass a requirement set by the logic within the block.
 
 2. Why would you use object destructuring?
+Object destructuring allows for ease of access of the element you choose to destructure. You are now able to call upon the destructured element without having to type "this." every time which not only saves time as the developer, but allows for easier readability for other developers.
 
 3. What is the difference between var, let, and const?
 
