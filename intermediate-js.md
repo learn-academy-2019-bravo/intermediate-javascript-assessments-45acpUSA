@@ -27,6 +27,9 @@ A higher order function is a function that either takes in a function (commonly 
 A class is a blueprint (or factory) for objects. Objects themselves have two key characteristics: attributes and behaviors. These are slightly different from hashes in Ruby, which only have attributes.
 
 7. What did you learn during the group project this week? Please include any additional feedback you may have.
+I learned a lot about interpersonal communication during the group projects this week. Without getting into too much detail, everyone has their own communication style and everyone should be sensitive to that. I believe it is everyone's responsibility to grow in their interpersonal communication skills and learn to deal with the various communication styles that one may come across.
+
+I heard one suggestion from a fellow classmate that was, in my opinion, extremely intelligent and highly practical in this specific situation. In the situation that a few students are a little further along and receive a more advanced project, mob or pair programming may not be the best learning style because it is human nature to feel pride, which in turn inflates ones' ego and can cause disputes between the group members. The disputes can arise for a variety of reasons, but primarily because everyone thinks that their idea is the best and should be implemented. In this situation, the fellow student and I believe that working on the project alone, but in the same proximity of the other students would be a more effective strategy. This allows for each student to implement their ideas as well as seek guidance or help from their peers who are working to accomplish the same goal.
 
 
 ### HTML/CSS Review questions: First, try to answer each question on your own then Google the answer to further your knowledge.
