@@ -40,6 +40,10 @@ You link a CSS file to your HTML page within the <head> of the HTML page. You us
 Linking a JavaScript file is slightly different. Within the body, typically just above the closing body tag, you would use the oepning and closing <script> tags along with the attribute src and set that equal to the string of the JS file pathway (or simply the file name if housed within the same directory). This is typically located at the bottom of the body because everything in the HTML page linked to JS above these tags will be recognized. Anything below these tags (while still within the body) will not be recognized by the JS file.
 
 2. What is the difference between a div and a span?
+A div tag is used to separate different pieces of the DOM, while span is used to "span" across the entire page of the DOM. div tags will naturally "span" across the entire DOM but are generally styled with a linked CSS file in order to only "contain" a portion of the page. span will always stretch across the entire DOM.
+
+Google:
+I wasn't even close! According to google, span is in-line usually used for a small chunk of HTML. In contrast, a div is block-line (which is equivalent to having a line-break before and after using it) and used to group larger chunks of code.
 
 3. What is a CSS class? When should you use an id instead of a class?
 
