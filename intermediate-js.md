@@ -18,6 +18,7 @@ let, on the other hand, is used for data types that are intended to be reassigne
 var, prior to ES6, was the only way to declare a data type. As more companies and developers are adopting the new syntax of ES6, var is becoming less common practice, although you may still see it used to declare data types in the global scope. Data types declared with var are mutable as well.
 
 4. Why is testing important?
+Testing is extremely important. Not only does it allow you to check whether your code fulfills its intended function, it can also check whether your code is dynamic enough to handle various cases. Almost every tech-based business requires testing as part of their common practice because it shows shareholders, clients and other non-developer personnel that the code is doing what it was intended for.
 
 5. What is a higher order function?
 
