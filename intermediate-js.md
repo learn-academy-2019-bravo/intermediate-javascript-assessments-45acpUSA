@@ -46,6 +46,9 @@ Google:
 I wasn't even close! According to google, span is in-line usually used for a small chunk of HTML. In contrast, a div is block-line (which is equivalent to having a line-break before and after using it) and used to group larger chunks of code.
 
 3. What is a CSS class? When should you use an id instead of a class?
+A CSS class is signified with dot notation. For example, .button would call upon a class named "button" in the linked HTML file and you would they be able to style accordingly. An id on the other hand is signified by a pound sign (or hash tag). An example of this would be, #startButton.
+
+An id is useful when your intention is to style a specific piece of the DOM, and not every element that's of the same type. Extending off the example I used above, if I wanted to turn all my buttons blue, I could give them all a class of .button, but if I wanted one of these buttons a slightly different hue or change the saturation, I could use id in order to individually style it.
 
 4. Name 4 semantic HTML tags.
 
