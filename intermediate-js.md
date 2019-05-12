@@ -66,6 +66,7 @@ According to Google (specifically w3schools), creating a responsive design is ab
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
 
 1. What is front end development? Can you identify any tools/skills that are uniquely required of front end developers?
+Front end development can also be thought of as client-side development. This encompasses UI/UX and the functionality entangled with that. Some specific languages from this course that would be worth focusing on if considering a front-end dev route would be HTML, CSS, JS and ReactJS. One tool that I really liked from this course was the wireframing. Getting a low fidelity wireframe of your page is a great way to get the basic skeleton and have a general idea of where elements are and how they will interact.
 
 2. What is block scope in JavaScript?
 
