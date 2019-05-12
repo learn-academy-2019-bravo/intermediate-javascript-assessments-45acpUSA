@@ -69,5 +69,8 @@ According to Google (specifically w3schools), creating a responsive design is ab
 Front end development can also be thought of as client-side development. This encompasses UI/UX and the functionality entangled with that. Some specific languages from this course that would be worth focusing on if considering a front-end dev route would be HTML, CSS, JS and ReactJS. One tool that I really liked from this course was the wireframing. Getting a low fidelity wireframe of your page is a great way to get the basic skeleton and have a general idea of where elements are and how they will interact.
 
 2. What is block scope in JavaScript?
+Block scope, or local scope, means that any data type declaration within the block is only accessible within that block or within any nested elements. Block scoped (or locally scoped data types) are generally declared using the let keyword because of the possibility of reassignment.
+
+In contrast, global scope means that the declared data type is accessible anywhere in the file, even within the block scope. These data types are typically declared using the const keyword because they typically won't be reassigned but still remain mutable.
 
 3. How would you explain the idea of "inheritance" in object oriented programming?
