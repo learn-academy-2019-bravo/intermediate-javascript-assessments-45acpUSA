@@ -3,7 +3,7 @@
 ### Without using Google answer the following:
 
 1. What is the difference between .map() and .filter()?
-While both are higher-order functions (also known as iterator methods), .map() returns a new array with all the same elements after running through the intended logic within the block, while .filter() returns a new array with ONLY elements that pass a requirement set by the logic within the block.
+While both are higher-order functions (also known as iterator methods), .map() returns a new array with all the same elements after running the array through the intended logic within the block, while .filter() returns a new array with ONLY elements that pass a requirement set by the logic within the block. In more simple terms, both return a new array but .map() includes all the same elements while .filter() only includes elements that pass a requirement.
 
 2. Why would you use object destructuring?
 Object destructuring allows for ease of access of the element you choose to destructure. You are now able to call upon the destructured element without having to type "this." every time which not only saves time as the developer, but allows for easier readability for other developers.
@@ -11,7 +11,7 @@ Object destructuring allows for ease of access of the element you choose to dest
 3. What is the difference between var, let, and const?
 With regards to the development of JavaScript as a language, var preceded both let and const. While all are used as declarative keywords, they have different uses. In 2015, ES6 brought about let and const which allowed for more versatility of JS.
 
-const is predominantly used when declaring a data type that is not intended to be reassigned. const actually prevents the reassignment of that data type, giving you an error message if attempted. This allows outside developers the ability to identify data types that are intended to be consistent throughout the block or entire file, depending on scope (although const is generally used to declare data types in the global scope). While data types declared with const cannot be reassigned, they remain mutable.
+const is predominantly used when declaring a data type that is not intended to be reassigned. const actually prevents the reassignment of that data type, giving you an error message if attempted. This gives outside developers the ability to identify data types that are NOT intended to be reassigned throughout the block or entire file, depending on scope (although const is generally used to declare data types in the global scope). While data types declared with const cannot be reassigned, they remain mutable.
 
 let, on the other hand, is used for data types that are intended to be reassigned allowing for higher functionality and versatility throughout the language. let is primarily used within the block scope because of the availability of reassignment. Data types declared with let are also mutable.
 
@@ -24,7 +24,7 @@ Testing is extremely important. Not only does it allow you to check whether your
 A higher order function is a function that either takes in a function (commonly represented as an anonymous function) as an argument, returns a function or both. These specific functions are highly versatile and are great tools for developers.
 
 6. What is the difference between a class and an object?
-A class is a blueprint (or factory) for objects. Objects themselves have two key characteristics: attributes and behaviors. These are slightly different from hashes in Ruby, which only have attributes.
+A class is a blueprint (or factory) for objects. Objects, themselves, have two key characteristics: attributes and behaviors. These are slightly different from hashes in Ruby, which only have attributes.
 
 7. What did you learn during the group project this week? Please include any additional feedback you may have.
 I learned a lot about interpersonal communication during the group projects this week. Without getting into too much detail, everyone has their own communication style and everyone should be sensitive to that. I believe it is everyone's responsibility to grow in their interpersonal communication skills and learn to deal with the various communication styles that one may come across.
