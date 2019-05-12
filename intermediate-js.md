@@ -57,6 +57,10 @@ Google:
 According to Google, a semantic HTML tag is one that introduces meaning to the web page rather than just presentation. These tags include, but are not limited to, the header tags (<h1> - <h6>), <blockquote>, <code> and <em>.
 
 5. What are three options for creating responsive design?
+I am not familiar with what a responsive design entails, but it sounds like CSS event listeners. A few options of CSS event listeners would be a hover (which applies a style change when hovering over the intended element), a focus (which applies a style change when the element is "in focus") and afterclick (which applies a style after the element has been clicked).
+
+Google:
+According to Google (specifically w3schools), creating a responsive design is about using HTML and CSS to automatically resize, hide, shrink, or enlarge a website, to make it look good on all devices. One option is setting the viewport, which gives the browser instructions on how to control the page's dimensions and scaling. A second option is by creating responsive images by playing around with height and width properties and using percentages rather than static dimensions. The third option is by creating responsive text using something called vw (or viewport width), which allows the font size to change according to the size of the browser window.
 
 
 ### Stretch: The following questions are potential interview questions. First, try to answer each question on your own then Google the answer to further your knowledge.
