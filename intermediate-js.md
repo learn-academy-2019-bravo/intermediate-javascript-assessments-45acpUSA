@@ -51,6 +51,10 @@ A CSS class is signified with dot notation. For example, .button would call upon
 An id is useful when your intention is to style a specific piece of the DOM, and not every element that's of the same type. Extending off the example I used above, if I wanted to turn all my buttons blue, I could give them all a class of .button, but if I wanted one of these buttons a slightly different hue or change the saturation, I could use id in order to individually style it.
 
 4. Name 4 semantic HTML tags.
+I don't know.
+
+Google:
+According to Google, a semantic HTML tag is one that introduces meaning to the web page rather than just presentation. These tags include, but are not limited to, the header tags (<h1> - <h6>), <blockquote>, <code> and <em>.
 
 5. What are three options for creating responsive design?
 
